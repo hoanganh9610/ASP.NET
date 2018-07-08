@@ -1,0 +1,13 @@
+c:\users\hoanganh.nguyen\documents\visual studio 2013\Projects\QuanLyCH\QuanLyCH\bin\QuanLyCH.dll.config
+c:\users\hoanganh.nguyen\documents\visual studio 2013\Projects\QuanLyCH\QuanLyCH\bin\QuanLyCH.dll
+c:\users\hoanganh.nguyen\documents\visual studio 2013\Projects\QuanLyCH\QuanLyCH\bin\QuanLyCH.pdb
+c:\users\hoanganh.nguyen\documents\visual studio 2013\Projects\QuanLyCH\QuanLyCH\obj\Debug\QuanLyCH.csprojResolveAssemblyReference.cache
+c:\users\hoanganh.nguyen\documents\visual studio 2013\Projects\QuanLyCH\QuanLyCH\obj\Debug\QuanLyCH.dll
+c:\users\hoanganh.nguyen\documents\visual studio 2013\Projects\QuanLyCH\QuanLyCH\obj\Debug\QuanLyCH.pdb
+C:\Users\USER\Downloads\Compressed\QuanLyCH\QuanLyCH\bin\QuanLyCH.dll.config
+C:\Users\USER\Downloads\Compressed\QuanLyCH\QuanLyCH\bin\QuanLyCH.dll
+C:\Users\USER\Downloads\Compressed\QuanLyCH\QuanLyCH\bin\QuanLyCH.pdb
+C:\Users\USER\Downloads\Compressed\QuanLyCH\QuanLyCH\obj\Debug\QuanLyCH.dll
+C:\Users\USER\Downloads\Compressed\QuanLyCH\QuanLyCH\obj\Debug\QuanLyCH.pdb
+C:\Users\USER\Downloads\Compressed\QuanLyCH\QuanLyCH\bin\CKEditor.NET.dll
+C:\Users\USER\Downloads\Compressed\QuanLyCH\QuanLyCH\obj\Debug\QuanLyCH.csprojResolveAssemblyReference.cache

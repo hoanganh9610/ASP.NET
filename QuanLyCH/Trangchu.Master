@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Trangchu.master.cs" Inherits="QuanLyCH.Trangchu" %>
+
+<!DOCTYPE html>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+        <title>Kiot Số</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <style>
+            .fakeimg {
+                height: 200px;
+                background: #aaa;
+            }
+        </style>
+    </head>
+
+    <body style="background-color:#eee">
+        <form id="form1" runat="server">
+            <div>
+                <div class=" text-left" style="margin-bottom:-10px">
+                    <h2>Kiot Số</h2>
+                </div>
+
+                <nav class="navbar navbar-expand-sm  " style="background:#6EC3C9; height:45px; color:white">
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav" style="margin-top:0.6%; width:100%">
+                            <li class="nav-link" style="margin-top:-0.6%">
+                                <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+                            </li>
+                            <li class="nav-item" style="width:10%">
+                                <a class="nav-link" href="Default.aspx" style="color:white">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;Tổng quan</a>
+                            </li>
+                            <li class="nav-item dropdown dropleft" style="width:10%">
+                                <a class="nav-link " href="#" style="color:white" data-toggle="dropdown">
+                                    <i class="fa fa-cube" aria-hidden="true"></i>&nbsp;Hàng hóa</a>
+                                <div class="dropdown-menu" style="margin-top:43px; margin-right:-100px">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-th" aria-hidden="true"></i>&nbsp;Danh mục</a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;Thiết lập giá</a>
+                                </div>
+                            </li>
+                            <li class="nav-item" style="width:10%">
+                                <a class="nav-link" href="PhongBan.aspx" style="color:white">
+                                    <i class="fa fa-table" aria-hidden="true"></i>&nbsp;Phòng Bàn</a>
+                            </li>
+                            <li class="nav-item" style="width:15%">
+                                <a class="nav-link" href="#" style="color:white">
+                                    <i class="fa fa-male" aria-hidden="true"></i>&nbsp;Quản lý người dùng</a>
+                            </li>
+                            <li class="nav-item" style="width:20%">
+                                <a class="nav-link" href="#" style="color:white">
+                                    <i class="fa fa-usd" aria-hidden="true"></i>&nbsp;Quản lý thu chi</a>
+                            </li>
+                            <li class="nav-item" style="margin-left:13%; width:9%">
+                                <a class="nav-link" href="#" style="color:white">
+                                    <i class="fa fa-bell" aria-hidden="true"></i>&nbsp;Nhà bếp</a>
+                            </li>
+                            <li class="nav-item" style="width:9%">
+                                <a class="nav-link" href="#" style="color:white">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Thu ngân</a>
+                            </li>
+                            <li class="nav-item dropdown dropleft">
+                                <a class="nav-link " href="#" style="color:white" data-toggle="dropdown">
+                                    <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                                </a>
+                                <div class="dropdown-menu" style="margin-top:43px; margin-right:-100px">
+                                    <a class="dropdown-item" href="#">Tài khoản</a>
+                                    <a class="dropdown-item" href="#">Đăng ký</a>
+                                    <a class="dropdown-item" href="#">Đăng xuất</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </body>
+
+    </html>
